@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: sans-serif;
+}
+.im{
+  margin-top: 4px;
+}
+.fgg{
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 1;
+}
+.fgb{
+ position: fixed;
+  z-index: 1;
+}
+ul li:hover{
+  font-size: 17px;
+}
+.ppp{
+  z-index: -1;
+}
+.con{
+  display: flex;
+  flex-wrap: wrap;
+ margin-top: 30px;
+ gap: 100px;
+}
+.img{
+  
+  background-color: rgb(193, 189, 189);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  
+}
+.img h1{
+  color: rgb(244, 8, 8);
+  font-weight: bold;
+}
+.img:hover{
+  background-color: gray; color: white;
+  box-shadow: 0px 0px 4px black;
+}
+.img img{
+  border-radius: 10px;
+  height: 300px;
+  width: 240px;
+}
+
+@media (max-width:260px) {
+  .img img{
+    border-radius: 10px;
+    height: 140px;
+    width: 200px;
+  }
+
+
+}
+
+
+@media (max-width:360px) {
+  .img img{
+    border-radius: 10px;
+    height: 140px;
+    width: 280px;
+  }
+
+
+}
+
+
+.img a{
+  background-color: rgb(30, 0, 255);
+  padding: 6px;
+  color: white;
+  font-size: 17px;
+  border-radius: 4px;
+}
+
+/* .nmnn{
+  border: 10px solid red;
+  background-color: blue;
+} */
+
+
+.rtt{
+  font-size: 35px;
+  font-weight: 600;
+}
+.vcv:hover{
+background-color: cornflowerblue;
+}
+
+.rfut{
+  margin-top: 40px;
+  background-color: black;
+  height: 64px;
+  width: 100%;
+  color: white;
+  
+ 
+}
+.rfut h1{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: auto; 
+ padding-top: 13px;
+ background-image: url('https://media.istockphoto.com/id/529664572/photo/fruit-background.jpg?s=612x612&w=0&k=20&c=K7V0rVCGj8tvluXDqxJgu0AdMKF8axP0A15P-8Ksh3I=');
+ background-size: cover;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip:text ;
+
+}
+
+
+.bnm{
+  background-color: blueviolet;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
